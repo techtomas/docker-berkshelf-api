@@ -1,0 +1,5 @@
+# Don't include private keys
+*.pem
+
+# Config.json will be specific to each user.
+config.json

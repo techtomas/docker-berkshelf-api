@@ -1,0 +1,14 @@
+{
+  "endpoints": [
+    {
+      "type": "chef_server",
+      "options": {
+        "url": "https://myown.chefserver.com/organizations/myorg",
+        "client_key": "/opt/berkshelf-api/client.pem",
+        "client_name": "berkshelf"
+      }
+    }
+  ],
+  "build_interval": 5.0,
+  "home": "/opt/berkshelf-api"
+}
